@@ -1,0 +1,9 @@
+# default values for blocks
+default height:40 width:80 stroke:color(black)
+
+# block definitions
+bdef symbol:s hit_points:2 fill:image(block_images/stoneblock.jpg) fill-1:image(block_images/stoneblock2.jpg)
+bdef symbol:m hit_points:4 fill:image(block_images/metalblock.jpg) fill-1:image(block_images/metalblock2.jpg)
+
+# spacers definitions
+sdef symbol:- width:40

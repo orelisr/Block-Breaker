@@ -1,0 +1,100 @@
+
+# Level 1
+# Forest Level
+
+START_LEVEL
+level_name:Into The Wild
+ball_velocities:20,400 -20,400 30,400 -30,400 40,400 -40,400 50,400 -50,400
+background:image(background_images/forest.jpg)
+paddle_speed:600
+paddle_width:150
+block_definitions:definitions/forest_block_definitions.txt
+blocks_start_x:60
+blocks_start_y:60
+row_height:40
+num_blocks:36
+START_BLOCKS
+b-b-b-b-b-b
+b-g-g-g-g-b
+b-g-g-g-g-b
+b-g-g-g-g-b
+b-g-g-g-g-b
+b-b-b-b-b-b
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Desert Level
+
+START_LEVEL
+level_name:No Man's Desert
+ball_velocities:30,400 -30,400 40,400 -40,400 50,400 -50,400
+background:image(background_images/desert.jpg)
+paddle_speed:550
+paddle_width:150
+block_definitions:definitions/desert_block_definitions.txt
+blocks_start_x:40
+blocks_start_y:60
+row_height:40
+num_blocks:34
+START_BLOCKS
+---sss------
+-ssbbbss----
+ssbbbbbss---
+--sbbbs-----
+--sbbbs-----
+--sssss-----
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+# Snow Level
+
+START_LEVEL
+level_name:Freezing Mountains
+ball_velocities:50,400 -50,400 40,400 -40,400 50,400 -50,400
+background:image(background_images/snow.jpg)
+paddle_speed:500
+paddle_width:150
+block_definitions:definitions/snow_block_definitions.txt
+blocks_start_x:40
+blocks_start_y:60
+row_height:40
+num_blocks:28
+START_BLOCKS
+ii-----ii-
+i-ibbbi-i-
+---bbb----
+---bbb----
+i-ibbbi-i-
+ii-----ii-
+END_BLOCKS
+END_LEVEL
+
+
+# Level 4
+# Lava Level
+
+START_LEVEL
+level_name:Hell's Gates
+ball_velocities:50,400 -50,400 40,400 -40,400 50,400 -50,400
+background:image(background_images/lava.jpg)
+paddle_speed:450
+paddle_width:150
+block_definitions:definitions/lava_block_definitions.txt
+blocks_start_x:60
+blocks_start_y:60
+row_height:40
+num_blocks:39
+START_BLOCKS
+s-s-s-s-s-s
+-s-s-s-s-s-
+s-m-m-m-m-s
+-s-m-m-m-s-
+s-m-m-m-m-s
+-s-s-s-s-s-
+s-s-s-s-s-s
+END_BLOCKS
+END_LEVEL
